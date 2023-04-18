@@ -74,6 +74,15 @@ function App() {
             <span>Genap</span>
           </>
         )}
+        {bilanganPrima ? (
+          <>
+            <span>Prima</span>
+          </>
+        ): (
+          <>
+            <span>Bukan Prima</span>
+          </>
+        )}
       </div>
     </>
   );
